@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Header = () => (
@@ -14,7 +15,12 @@ const Header = () => (
             <li>
               <Link href="#" className="font-[400] px-[44px] py-[15px] text-[14px] leading-[22px] tracking-[0.5px] uppercase text-black flex items-center gap-[30px]">
                 <div className='w-[17px] h-[17px] border border-black rounded-full bg-red-500' />
-                <img src="/images/logo.svg" alt="Ujjo Logo" />
+                <Image
+                  src="/images/logo.svg"
+                  alt="Ujjo Logo"
+                  width={61}
+                  height={70}
+                />
                 <div className='w-[17px] h-[17px] border border-black rounded-full bg-purple-500' />
               </Link>
             </li>
