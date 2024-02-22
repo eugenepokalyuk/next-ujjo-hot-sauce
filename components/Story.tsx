@@ -1,15 +1,15 @@
 const Story = () => (
   <section>
     <div>
-      <div className="border-x border-black flex">
-        <div className="w-1/2 flex flex-col border-r border-black">
-          <h2 className="mb-auto py-[50px] px-[80px] font-[400] text-[58px] leading-[65px] tracking-[0.5px] text-center uppercase text-black">
+      <div className="border-x border-black flex flex-col md:flex-row">
+        <div className="md:w-1/2 flex flex-col md:border-r border-black">
+          <h2 className="mb-auto py-[50px] md:px-[80px] font-[400] text-[58px] leading-[65px] tracking-[0.5px] text-center uppercase text-black">
             the story behind the souce
           </h2>
-          <img src="/images/story-image.jpg" alt="" aria-hidden="true" className="h-auto max-w-full object-cover" />
+          <img src="/images/story-image.gif" alt="" aria-hidden="true" className="h-auto max-w-full object-cover" />
         </div>
-        <div className="w-1/2">
-          <div className="py-[135px] aspect-square" style={{
+        <div className="md:w-1/2">
+          <div className="py-[135px] md:aspect-square" style={{
             backgroundImage: "url('/images/frame-image-2.svg')",
             backgroundPosition: "center",
             backgroundSize: "cover",

@@ -9,13 +9,13 @@ import Head from 'next/head';
 
 const Home = () => {
     return (
-        <div className='w-[1440px] mx-auto p-5'>
+        <div className='md:w-[1440px] mx-auto p-5'>
             <Head>
                 <title>Ujjo - Hot Sauce for Coffee</title>
                 <meta charSet="UTF-8" />
                 <meta name="description" content="The first hot sauce made for coffee." />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/favicon.svg" />
             </Head>
 
             <Header />
