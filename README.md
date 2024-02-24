@@ -1,3 +1,41 @@
+# Next Ujjo Hot Sauce
+
+A dynamic and spicy platform for Ujjo Hot Sauce lovers, built with the efficiency of Next.js.
+
+## About The Project
+
+The Next Ujjo Hot Sauce project is an online storefront for Ujjo Hot Sauce, a brand that brings heat to your favorite drinks and dishes with a variety of hot sauce flavors. This web application is designed to provide a seamless shopping experience for hot sauce aficionados.
+
+## Features
+
+- **Product Showcase**: Each hot sauce variety is displayed with vivid imagery and detailed descriptions.
+- **Responsive Design**: Optimized for a smooth experience on both desktop and mobile devices.
+- **SEO Friendly**: Leveraging Next.js for enhanced SEO capabilities.
+
+## Built With
+
+- [Next.js](https://nextjs.org/) - The React framework for production.
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework for rapid UI development.
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps:
+
+```sh
+# Clone the repository
+git clone https://github.com/eugenepokalyuk/next-ujjo-hot-sauce.git
+
+# Navigate to the project directory
+cd next-ujjo-hot-sauce
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
