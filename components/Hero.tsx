@@ -23,6 +23,7 @@ const Hero = () => {
             <h1 className="border md:border-l-0 border-black px-[100px] py-[20px] font-[400] text-[58px] leading-[65px] tracking-[0.5px] text-center uppercase text-black">
               THE FIRST HOT SAUCE MADE FOR COFFEE
             </h1>
+            
             <div className="p-5 border-x md:border-0 md:border-r border-black max-w-full">
               <img src="/images/main-image.jpg" alt="Ujjo Pepper in hand" className="w-full h-full object-cover" />
             </div>
@@ -32,4 +33,5 @@ const Hero = () => {
     </section>
   )
 }
+
 export default Hero;
